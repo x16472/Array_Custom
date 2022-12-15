@@ -6,7 +6,7 @@ import (
 
 func main() {
 	var num int
-	fmt.Printf("請輸入數值：")
+	fmt.Printf("please enter value:")
 	fmt.Scanln(&num)
 	for i := 0; i < num; i++ {
 		for e := 0; e < i; e++ {
@@ -25,6 +25,6 @@ func main() {
 			fmt.Printf("-")
 		}
 		fmt.Println(" ")
-		//蝞銵é蝞
+
 	}
 }
